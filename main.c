@@ -59,3 +59,12 @@ void insert(int key,int data) {
    hashArray[hashIndex] = item;
 }
 
+struct DataItem* delete(struct DataItem* item) {
+   int key = item->key;
+
+   //get the hash
+   int hashIndex = hashCode(key);
+
+
+   return NULL;
+}
