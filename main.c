@@ -13,3 +13,7 @@ struct DataItem {
 struct DataItem* hashArray[SIZE];
 struct DataItem* dummyItem;
 struct DataItem* item;
+
+int hashCode(int key) {
+   return key % SIZE;
+}
