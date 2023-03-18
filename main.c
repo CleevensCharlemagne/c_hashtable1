@@ -28,7 +28,11 @@ struct DataItem *search(int key) {
       if(hashArray[hashIndex]->key == key)
          return hashArray[hashIndex];
 
+      //go to next cell
+      ++hashIndex;
 
+      //wrap around the table
+      hashIndex %= SIZE;
    }
 
    return NULL;
