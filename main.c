@@ -17,3 +17,12 @@ struct DataItem* item;
 int hashCode(int key) {
    return key % SIZE;
 }
+
+struct DataItem *search(int key) {
+   //get the hash
+   int hashIndex = hashCode(key);
+
+
+
+   return NULL;
+}
