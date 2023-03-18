@@ -37,3 +37,13 @@ struct DataItem *search(int key) {
 
    return NULL;
 }
+
+void insert(int key,int data) {
+
+   struct DataItem *item = (struct DataItem*) malloc(sizeof(struct DataItem));
+   item->data = data;
+   item->key = key;
+
+
+}
+
