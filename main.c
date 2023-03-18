@@ -118,5 +118,11 @@ int main() {
    display();
    item = search(37);
 
+   if(item != NULL) {
+      printf("Element found: %d\n", item->data);
+   } else {
+      printf("Element not found\n");
+   }
+
 
 }
