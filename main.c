@@ -85,3 +85,12 @@ struct DataItem* delete(struct DataItem* item) {
 
    return NULL;
 }
+
+void display() {
+   int i = 0;
+
+
+
+
+}
+
