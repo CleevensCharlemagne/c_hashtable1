@@ -89,7 +89,13 @@ struct DataItem* delete(struct DataItem* item) {
 void display() {
    int i = 0;
 
+   for(i = 0; i<SIZE; i++) {
 
+      if(hashArray[i] != NULL)
+         printf(" (%d,%d)",hashArray[i]->key,hashArray[i]->data);
+      else
+         printf(" ~~ ");
+   }
 
    printf("\n");
 }
