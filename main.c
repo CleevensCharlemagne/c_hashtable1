@@ -44,6 +44,9 @@ void insert(int key,int data) {
    item->data = data;
    item->key = key;
 
+   //get the hash
+   int hashIndex = hashCode(key);
+
 
 }
 
