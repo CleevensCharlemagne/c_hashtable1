@@ -76,7 +76,11 @@ struct DataItem* delete(struct DataItem* item) {
          return temp;
       }
 
+      //go to next cell
+      ++hashIndex;
 
+      //wrap around the table
+      hashIndex %= SIZE;
    }
 
    return NULL;
