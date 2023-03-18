@@ -4,3 +4,8 @@
 #include <stdbool.h>
 
 #define SIZE 20
+
+struct DataItem {
+   int data;
+   int key;
+};
