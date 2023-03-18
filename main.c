@@ -9,3 +9,7 @@ struct DataItem {
    int data;
    int key;
 };
+
+struct DataItem* hashArray[SIZE];
+struct DataItem* dummyItem;
+struct DataItem* item;
